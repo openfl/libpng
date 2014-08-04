@@ -1,10 +1,10 @@
 <xml>
-
+	
 	<files id="native-toolkit-png" >
-
+		
 		<compilerflag value="-I${NATIVE_TOOLKIT_PATH}/png/" />
 		<compilerflag value="-I${NATIVE_TOOLKIT_PATH}/zlib/" />
-
+		
 		<file name="${NATIVE_TOOLKIT_PATH}/png/png.c" />
 		<file name="${NATIVE_TOOLKIT_PATH}/png/pngerror.c" />
 		<file name="${NATIVE_TOOLKIT_PATH}/png/pngget.c" />
@@ -20,14 +20,14 @@
 		<file name="${NATIVE_TOOLKIT_PATH}/png/pngwrite.c" />
 		<file name="${NATIVE_TOOLKIT_PATH}/png/pngwtran.c" />
 		<file name="${NATIVE_TOOLKIT_PATH}/png/pngwutil.c" />
-
+		
 		<section if="ios">
-
+			
 			<file name="${NATIVE_TOOLKIT_PATH}/png/arm/arm_init.c" />
 			<file name="${NATIVE_TOOLKIT_PATH}/png/arm/filter_neon_intrinsics.c" />
-
+			
 		</section>
-
+		
 	</files>
-
+	
 </xml>
