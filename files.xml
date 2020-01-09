@@ -42,6 +42,7 @@
 			
 			<file name="${NATIVE_TOOLKIT_PATH}/png/arm/arm_init.c" />
 			<file name="${NATIVE_TOOLKIT_PATH}/png/arm/filter_neon_intrinsics.c" />
+			<file name="${NATIVE_TOOLKIT_PATH}/png/arm/palette_neon_intrinsics.c" />
 			
 		</section>
 		
