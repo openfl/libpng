@@ -11,6 +11,7 @@
 
 		<compilerflag value="-I${NATIVE_TOOLKIT_PATH}/png/" />
 		<compilerflag value="-I${NATIVE_TOOLKIT_PATH}/zlib/" />
+		<compilerflag value="-DPNG_ARM_NEON_OPT=0" if="macos" />
 
       <depend files="native-toolkit-png-depends" />
 
